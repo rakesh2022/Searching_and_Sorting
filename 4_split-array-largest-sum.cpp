@@ -19,9 +19,6 @@ public:
                     return false;
             }
         }
-
-        if (m < 0)
-            return false;
         return true;
     }
     int splitArray(vector<int> &nums, int m)
